@@ -19,6 +19,8 @@ sdk/**/*RemoteSystemsTempFiles
 sdk/**/*Debug/*
 sdk/**/*Release
 sdk/**/*webtalk
+sdk/.sdk
+sdk/*.log
 
 # ignore everything in the hw_platform
 sdk/*hw_platform*/*
@@ -67,6 +69,7 @@ proj/*
 !proj/create_project.tcl
 !proj/cleanup.cmd
 !proj/cleanup.sh
+!proj/release.py
 
 # keep the empty folders
 !/**/.keep
